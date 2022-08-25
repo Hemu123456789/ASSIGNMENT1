@@ -3,18 +3,12 @@
 // Strings according to their lengths
 
 import java.util.*;
-
- 
-
 class solution
-
 {
 
 // Function to print the sorted array of string
 
 // void printArraystring(string,int);
-
- 
 
 // Function to Sort the array of string
 
