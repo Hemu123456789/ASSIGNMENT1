@@ -7,10 +7,16 @@ public class Main
         System.out.println("Initialized Two dimensional array:");
         for (int i = 0; i < 3; i++) { 
             for (int j = 0; j < 2; j++) { 
-            System.out.print(intArray [i][j] + " "); 
-            } 
- 
-            System.out.println(); 
-        } 
+           
+               System.out.print(intArray [i][j] + " "); 
+            if(n == p)
+		{
+      Matrix obj = new Matrix();
+			obj.matrixMul({ { 1, 2 }, { 4,5 },{8,9}});
+		}
+		else
+		{
+			System.out.println("Matrix multiplication cannot be performed...");
+		}
     }
 }
